@@ -4,6 +4,7 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
 ![TensorFlow](https://img.shields.io/badge/DeepLearning-TensorFlow-orange?logo=tensorflow)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Machine Learning project to predict **credit card customer churn** using customer demographic and banking data. 💳
 
