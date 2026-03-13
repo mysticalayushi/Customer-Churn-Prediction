@@ -45,6 +45,8 @@ Try the deployed app here:
   <img src="app_preview4.png" width="45%">
 </p>
 
+---
+
 ## 📂 Project Structure
 
 ```
