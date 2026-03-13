@@ -89,10 +89,10 @@ Customer-Churn-Prediction
 
 | Model | Accuracy |
 |------|------|
-| Logistic Regression | 81% |
-| Random Forest | 86% |
-| SVM | 83% |
-| Neural Network | 85% |
+| Logistic Regression | 82% |
+| Random Forest | 85% |
+| SVM | 86% |
+| Neural Network | 86% |
 
 Random Forest performed the best in this experiment.
 
