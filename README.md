@@ -9,7 +9,7 @@ Machine Learning project to predict **credit card customer churn** using custome
 
 ---
 
-## Project Overview 📌
+## 📌 Project Overview
 
 Customer churn is a major challenge for banks and various service providers. 🏦  
 This project builds a machine learning model that predicts whether a customer is likely to leave the bank.
@@ -28,7 +28,7 @@ The goal is to help businesses **identify high-risk customers and take retention
 
 ---
 
-## Project Structure 📂
+## 📂 Project Structure
 
 ```
 Customer-Churn-Prediction
@@ -54,7 +54,7 @@ Customer-Churn-Prediction
 
 ---
 
-## Technologies Used 🛠️
+## 🛠️ Technologies Used
 
 - Python 🐍  
 - Pandas 🐼  
@@ -67,7 +67,7 @@ Customer-Churn-Prediction
 
 ---
 
-## Model Training Process ⚙️
+## ⚙️ Model Training Process
 
 1. Data cleaning and preprocessing 🧹  
 2. Exploratory Data Analysis (EDA) 🔎  
@@ -78,14 +78,14 @@ Customer-Churn-Prediction
 
 ---
 
-## Model Performance 📈
+## 📈 Model Performance
 
 - **Accuracy:** ~85% (may vary depending on training)  
 - **Task:** Binary classification (Churn vs Not Churn)
 
 ---
 
-## Model Comparison 📊
+## 📊 Model Comparison
 
 | Model | Accuracy |
 |------|------|
@@ -94,19 +94,56 @@ Customer-Churn-Prediction
 | SVM | 86% |
 | Neural Network | 86% |
 
-Neural Netwrok was selected as the training model. 🧠
+Neural Network was selected as the training model. 🧠
+
+---
+## 📊 Dataset
+
+This project uses the **Credit Card Customer Churn Dataset** which contains customer demographic and banking information used to predict churn behavior.
+
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
 
 ---
 
-## How to Run the Project ▶️
+## 📋 Dataset Preview
 
-### 1. Install dependencies 📦
+| CreditScore | Geography | Age | Balance | Tenure | NumOfProducts | IsActiveMember | Churn |
+|-------------|-----------|-----|---------|--------|---------------|---------------|-------|
+| 619 | France | 42 | 0.00 | 2 | 1 | 1 | 1 |
+| 608 | Spain | 41 | 83807.86 | 1 | 1 | 1 | 0 |
+| 502 | France | 42 | 159660.80 | 8 | 3 | 0 | 1 |
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+```
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Feature Scaling
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Streamlit Deployment
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install dependencies 📦
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the notebook 📓
+### 2️⃣ Run the notebook 📓
 
 Open and run:
 
@@ -114,7 +151,7 @@ Open and run:
 notebooks/churn_analysis.ipynb
 ```
 
-### 3. Run the Streamlit app 🚀
+### 3️⃣ Run the Streamlit app 🚀
 
 ```bash
 streamlit run app/app.py
@@ -122,21 +159,13 @@ streamlit run app/app.py
 
 ---
 
-## Dataset 📊
-
-Dataset used: **Credit Card Customer Churn dataset**
-
-Features include demographic and account activity information.
-
----
-
-## Future Improvements 🔮
+## 🔮 Future Improvements
 
 - Hyperparameter tuning ⚙️  
 - Feature selection 🎯
 
 ---
 
-## Author 👩‍💻
+## 👩‍💻 Author
 
-**AYUSHI RAI**
+**Ayushi Rai**
