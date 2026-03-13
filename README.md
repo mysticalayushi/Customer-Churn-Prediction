@@ -141,6 +141,4 @@ Features include demographic and account activity information.
 
 **AYUSHI RAI**
 
-# Customer-Churn-Prediction
-
 
