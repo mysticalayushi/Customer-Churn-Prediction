@@ -94,7 +94,7 @@ Customer-Churn-Prediction
 | SVM | 86% |
 | Neural Network | 86% |
 
-Random Forest performed the best in this experiment.
+Neural Netwrok was selected as the training model.
 
 ## How to Run the Project
 
