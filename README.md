@@ -35,16 +35,25 @@ Try the deployed app here:
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
 
+## 📸 App Preview
+
 <p align="center">
   <img src="app_preview1.png" width="45%">
   <img src="app_preview2.png" width="45%">
+</p>
+<p align="center">
+  <sub>Customer likely to stay</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>Customer likely to churn</sub>
 </p>
 
 <p align="center">
   <img src="app_preview3.png" width="45%">
   <img src="app_preview4.png" width="45%">
 </p>
-
+<p align="center">
+  <sub>Customer likely to stay</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>Customer likely to churn</sub>
+</p>
 ---
 
 ## 📂 Project Structure
