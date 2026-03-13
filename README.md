@@ -1,8 +1,9 @@
 # Customer Churn Prediction 📊
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)
+![TensorFlow](https://img.shields.io/badge/DeepLearning-TensorFlow-orange?logo=tensorflow)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 Machine Learning project to predict **credit card customer churn** using customer demographic and banking data. 💳
