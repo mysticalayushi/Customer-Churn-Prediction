@@ -1,3 +1,4 @@
+
 # Customer Churn Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -139,3 +140,7 @@ Features include demographic and account activity information.
 ## Author
 
 **AYUSHI RAI**
+
+# Customer-Churn-Prediction
+
+
