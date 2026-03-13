@@ -131,9 +131,7 @@ Features include demographic and account activity information.
 ## Future Improvements
 
 - Hyperparameter tuning  
-- Feature selection  
-- Model comparison (Random Forest, XGBoost)  
-- Deployment on cloud  
+- Feature selection 
 
 ---
 
