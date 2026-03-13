@@ -29,6 +29,11 @@ The goal is to help businesses **identify high-risk customers and take retention
 
 ---
 
+## 🚀 Live Demo
+
+Try the deployed app here:
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
 ## 📂 Project Structure
 
 ```
