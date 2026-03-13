@@ -1,91 +1,91 @@
-
-# Customer Churn Prediction
+# Customer Churn Prediction 📊
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-Machine Learning project to predict **credit card customer churn** using customer demographic and banking data.
+
+Machine Learning project to predict **credit card customer churn** using customer demographic and banking data. 💳
 
 ---
 
-## Project Overview
+## Project Overview 📌
 
-Customer churn is a major challenge for banks and financial institutions.  
+Customer churn is a major challenge for banks and various service providers. 🏦  
 This project builds a machine learning model that predicts whether a customer is likely to leave the bank.
 
 The model analyzes customer attributes such as:
 
-- Age  
-- Geography  
-- Credit Score  
-- Account Balance  
-- Tenure  
-- Number of Products  
-- Active Membership  
+- Age 👤  
+- Geography 🌍  
+- Credit Score 📊  
+- Account Balance 💰  
+- Tenure ⏳  
+- Number of Products 🧾  
+- Active Membership ✅  
 
-The goal is to help businesses **identify high-risk customers and take retention actions**.
+The goal is to help businesses **identify high-risk customers and take retention actions**. 🎯
 
 ---
 
-## Project Structure
+## Project Structure 📂
 
 ```
 Customer-Churn-Prediction
 │
-├── app/                     # Streamlit web app
+├── app/                     # Streamlit web app 🌐
 │
-├── data/                    # Dataset
+├── data/                    # Dataset 📊
 │   └── raw/
 │
-├── models/                  # Saved trained models
+├── models/                  # Saved trained models 🤖
 │   ├── churn_prediction_model.h5
 │   └── scaler.pkl
 │
-├── notebooks/               # Jupyter notebooks for analysis
+├── notebooks/               # Jupyter notebooks for analysis 📓
 │   └── churn_analysis.ipynb
 │
-├── src/                     # Source code
+├── src/                     # Source code 💻
 │
-├── requirements.txt         # Project dependencies
+├── requirements.txt         # Project dependencies 📦
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## Technologies Used
+## Technologies Used 🛠️
 
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- TensorFlow / Keras  
-- Matplotlib  
-- Seaborn  
-- Streamlit  
-
----
-
-## Model Training Process
-
-1. Data cleaning and preprocessing  
-2. Exploratory Data Analysis (EDA)  
-3. Feature engineering  
-4. Data scaling using **StandardScaler**  
-5. Model training using a **Neural Network**  
-6. Model evaluation  
-7. Model saving for deployment  
+- Python 🐍  
+- Pandas 🐼  
+- NumPy 🔢  
+- Scikit-learn 🤖  
+- TensorFlow / Keras 🧠  
+- Matplotlib 📈  
+- Seaborn 🌊  
+- Streamlit 🚀  
 
 ---
 
-## Model Performance
+## Model Training Process ⚙️
+
+1. Data cleaning and preprocessing 🧹  
+2. Exploratory Data Analysis (EDA) 🔎  
+3. Data scaling using **StandardScaler** ⚖️  
+4. Model training using a **Neural Network** 🧠  
+5. Model evaluation 📊  
+6. Model saving for deployment 💾  
+
+---
+
+## Model Performance 📈
 
 - **Accuracy:** ~85% (may vary depending on training)  
 - **Task:** Binary classification (Churn vs Not Churn)
 
 ---
-## Model Comparison
+
+## Model Comparison 📊
 
 | Model | Accuracy |
 |------|------|
@@ -94,17 +94,19 @@ Customer-Churn-Prediction
 | SVM | 86% |
 | Neural Network | 86% |
 
-Neural Netwrok was selected as the training model.
+Neural Netwrok was selected as the training model. 🧠
 
-## How to Run the Project
+---
 
-### 1. Install dependencies
+## How to Run the Project ▶️
+
+### 1. Install dependencies 📦
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the notebook
+### 2. Run the notebook 📓
 
 Open and run:
 
@@ -112,7 +114,7 @@ Open and run:
 notebooks/churn_analysis.ipynb
 ```
 
-### 3. Run the Streamlit app
+### 3. Run the Streamlit app 🚀
 
 ```bash
 streamlit run app/app.py
@@ -120,7 +122,7 @@ streamlit run app/app.py
 
 ---
 
-## Dataset
+## Dataset 📊
 
 Dataset used: **Credit Card Customer Churn dataset**
 
@@ -128,15 +130,13 @@ Features include demographic and account activity information.
 
 ---
 
-## Future Improvements
+## Future Improvements 🔮
 
-- Hyperparameter tuning  
-- Feature selection 
+- Hyperparameter tuning ⚙️  
+- Feature selection 🎯
 
 ---
 
-## Author
+## Author 👩‍💻
 
 **AYUSHI RAI**
-
-
