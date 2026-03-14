@@ -1,4 +1,5 @@
 # Customer Churn Prediction 📊
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -13,24 +14,31 @@
 **An end-to-end machine learning system that predicts whether a bank customer will churn —  
 built with Neural Networks and deployed as an interactive Streamlit web application.**
 
+</div>
+
 ---
 
 ## 📌 Project Overview
-Customer churn costs banks millions annually. Identifying at-risk customers **before** they leave allows businesses to take targeted retention actions — saving revenue and improving customer relationships🎯
+
+Customer churn costs banks millions annually. Identifying at-risk customers **before** they leave allows businesses to take targeted retention actions — saving revenue and improving customer relationships 🎯
 
 This project answers the question:
 
 > **"Given a customer's demographic and banking profile, how likely are they to leave?"**
+
 ---
 
 ## 🚀 Live Demo
 
-Try the deployed app here:
+<div align="center">
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
 [![📓 Notebook](https://img.shields.io/badge/📓%20Notebook-View%20Analysis-F37626?style=for-the-badge&logo=jupyter)](notebooks/churn_analysis.ipynb)
 [![📊 Dataset](https://img.shields.io/badge/📊%20Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
+
 </div>
+
+---
 
 ## 🖼️ App Preview
 
@@ -50,7 +58,6 @@ Try the deployed app here:
 </p>
 
 ---
-
 
 ## 📂 Project Structure
 
@@ -95,22 +102,25 @@ Customer-Churn-Prediction/
 
 ## ⚙️ Model Training Process
 
-1. Data cleaning and preprocessing 🧹  
-2. Exploratory Data Analysis (EDA) 🔎  
-3. Data scaling using **StandardScaler** ⚖️  
-4. Model training using a **Neural Network** 🧠  
-5. Model evaluation 📊  
-6. Model saving for deployment 💾  
+1. Data cleaning and preprocessing 🧹
+2. Exploratory Data Analysis (EDA) 🔎
+3. Data scaling using **StandardScaler** ⚖️
+4. Model training using a **Neural Network** 🧠
+5. Model evaluation 📊
+6. Model saving for deployment 💾
 
 ---
 
 ## 📈 Model Performance
 
-- **Accuracy:** ~85% (may vary depending on training)  
+- **Accuracy:** ~85% (may vary depending on training)
 - **Task:** Binary classification (Churn vs Not Churn)
 
 ---
+
 ## 📊 Model Comparison
+
+<div align="center">
 
 | Model | Accuracy |
 |---|---|
@@ -118,6 +128,8 @@ Customer-Churn-Prediction/
 | Random Forest | 85% |
 | SVM | 86% |
 | ✅ **Neural Network** | **86%** |
+
+</div>
 
 > **Neural Network (TensorFlow/Keras)** was selected as the final model for deployment due to its performance and scalability.
 
@@ -130,7 +142,10 @@ Raw Data  →  Cleaning  →  EDA  →  Feature Scaling  →  Model Training  �
 ```
 
 ---
+
 ### Features Used for Prediction
+
+<div align="center">
 
 | Feature | Description |
 |---|---|
@@ -140,6 +155,8 @@ Raw Data  →  Cleaning  →  EDA  →  Feature Scaling  →  Model Training  �
 | `Tenure` | Years as a customer |
 | `NumOfProducts` | Number of bank products held |
 | `IsActiveMember` | Whether the customer is active |
+
+</div>
 
 ---
 
@@ -163,18 +180,24 @@ jupyter notebook notebooks/churn_analysis.ipynb
 ```
 
 ---
+
 ## 🔮 Future Improvements
 
 - [ ] Hyperparameter tuning with Optuna
 - [ ] Feature importance visualization (SHAP values)
 - [ ] Add SMOTE for handling class imbalance
 - [ ] REST API with FastAPI for model serving
+
 ---
 
 ## 👩‍💻 Author
 
+<div align="center">
+
 **Ayushi Rai**  
 [![GitHub](https://img.shields.io/badge/GitHub-mysticalayushi-181717?style=flat&logo=github)](https://github.com/mysticalayushi)
+
+</div>
 
 ---
 
