@@ -1,19 +1,26 @@
 # Customer Churn Prediction 📊
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
-![ML](https://img.shields.io/badge/Machine%20Learning-Project-green)
-![TensorFlow](https://img.shields.io/badge/DeepLearning-TensorFlow-orange?logo=tensorflow)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<div align="center">
 
-Machine Learning project to predict **credit card customer churn** using customer demographic and banking data. 💳
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
+
+<br/>
+
+**An end-to-end machine learning system that predicts whether a bank customer will churn —  
+built with Neural Networks and deployed as an interactive Streamlit web application.**
 
 ---
 
 ## 📌 Project Overview
+Customer churn costs banks millions annually. Identifying at-risk customers **before** they leave allows businesses to take targeted retention actions — saving revenue and improving customer relationships🎯
 
-Customer churn is a major challenge for banks and various service providers. 🏦  
-This project builds a machine learning model that predicts whether a customer is likely to leave the bank.
+This project answers the question:
+
+> **"Given a customer's demographic and banking profile, how likely are they to leave?"**
 
 The model analyzes customer attributes such as:
 
@@ -25,8 +32,6 @@ The model analyzes customer attributes such as:
 - Number of Products 🧾  
 - Active Membership ✅  
 
-The goal is to help businesses **identify high-risk customers and take retention actions**. 🎯
-
 ---
 
 ## 🚀 Live Demo
@@ -35,24 +40,21 @@ Try the deployed app here:
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
 
-## 📸 App Preview
+## 🖼️ App Preview
 
 <p align="center">
-  <img src="app_preview1.png" width="45%">
-  <img src="app_preview2.png" width="45%">
+  <img src="app_preview1.png" width="45%" alt="Customer likely to stay"/>
+  &nbsp;&nbsp;
+  <img src="app_preview2.png" width="45%" alt="Customer likely to churn"/>
 </p>
 <p align="center">
-  <sub>Customer likely to stay</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <sub>Customer likely to churn</sub>
+  <em>Left: Customer predicted to stay &nbsp;|&nbsp; Right: Customer predicted to churn</em>
 </p>
 
 <p align="center">
-  <img src="app_preview3.png" width="45%">
-  <img src="app_preview4.png" width="45%">
-</p>
-<p align="center">
-  <sub>Customer likely to stay</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <sub>Customer likely to churn</sub>
+  <img src="app_preview3.png" width="45%" alt="App view 3"/>
+  &nbsp;&nbsp;
+  <img src="app_preview4.png" width="45%" alt="App view 4"/>
 </p>
 
 ---
@@ -83,16 +85,19 @@ Customer-Churn-Prediction
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python 🐍  
-- Pandas 🐼  
-- NumPy 🔢  
-- Scikit-learn 🤖  
-- TensorFlow / Keras 🧠  
-- Matplotlib 📈  
-- Seaborn 🌊  
-- Streamlit 🚀  
+<div align="center">
+
+| Category | Tools |
+|---|---|
+| **Language** | Python 3.11 |
+| **Deep Learning** | TensorFlow, Keras |
+| **ML & Data** | Scikit-learn, Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Deployment** | Streamlit |
+
+</div>
 
 ---
 
@@ -144,57 +149,61 @@ This project uses the **Credit Card Customer Churn Dataset** which contains cust
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## 🧠 ML Pipeline
 
 ```
-Data Collection
-      ↓
-Data Cleaning
-      ↓
-Exploratory Data Analysis
-      ↓
-Feature Scaling
-      ↓
-Model Training
-      ↓
-Model Evaluation
-      ↓
-Streamlit Deployment
+Raw Data  →  Cleaning  →  EDA  →  Feature Scaling  →  Model Training  →  Evaluation  →  Deployment
 ```
 
 ---
+### Features Used for Prediction
 
-## ▶️ How to Run the Project
+| Feature | Description |
+|---|---|
+| `CreditScore` | Customer's credit score |
+| `Age` | Customer's age |
+| `Balance` | Account balance |
+| `Tenure` | Years as a customer |
+| `NumOfProducts` | Number of bank products held |
+| `IsActiveMember` | Whether the customer is active |
 
-### 1️⃣ Install dependencies 📦
+---
+
+## ▶️ Run Locally
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/mysticalayushi/Customer-Churn-Prediction.git
+cd Customer-Churn-Prediction
+
+# 2. Install dependencies
 pip install -r requirements.txt
-```
 
-### 2️⃣ Run the notebook 📓
-
-Open and run:
-
-```
-notebooks/churn_analysis.ipynb
-```
-
-### 3️⃣ Run the Streamlit app 🚀
-
-```bash
+# 3. Launch the Streamlit app
 streamlit run app/app.py
 ```
 
----
+Or explore the analysis notebook:
+```bash
+jupyter notebook notebooks/churn_analysis.ipynb
+```
 
+---
 ## 🔮 Future Improvements
 
-- Hyperparameter tuning ⚙️  
-- Feature selection 🎯
-
+- [ ] Hyperparameter tuning with Optuna
+- [ ] Feature importance visualization (SHAP values)
+- [ ] Add SMOTE for handling class imbalance
+- [ ] REST API with FastAPI for model serving
 ---
 
 ## 👩‍💻 Author
 
-**Ayushi Rai**
+**Ayushi Rai**  
+[![GitHub](https://img.shields.io/badge/GitHub-mysticalayushi-181717?style=flat&logo=github)](https://github.com/mysticalayushi)
+
+---
+
+<div align="center">
+<sub>If you found this project helpful, consider giving it a ⭐ on GitHub!</sub>
+</div>
