@@ -21,17 +21,6 @@ Customer churn costs banks millions annually. Identifying at-risk customers **be
 This project answers the question:
 
 > **"Given a customer's demographic and banking profile, how likely are they to leave?"**
-
-The model analyzes customer attributes such as:
-
-- Age 👤  
-- Geography 🌍  
-- Credit Score 📊  
-- Account Balance 💰  
-- Tenure ⏳  
-- Number of Products 🧾  
-- Active Membership ✅  
-
 ---
 
 ## 🚀 Live Demo
@@ -39,6 +28,9 @@ The model analyzes customer attributes such as:
 Try the deployed app here:
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
+[![📓 Notebook](https://img.shields.io/badge/📓%20Notebook-View%20Analysis-F37626?style=for-the-badge&logo=jupyter)](notebooks/churn_analysis.ipynb)
+[![📊 Dataset](https://img.shields.io/badge/📊%20Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
+</div>
 
 ## 🖼️ App Preview
 
@@ -59,27 +51,27 @@ Try the deployed app here:
 
 ---
 
+
 ## 📂 Project Structure
 
 ```
-Customer-Churn-Prediction
+Customer-Churn-Prediction/
 │
-├── app/                     # Streamlit web app 🌐
+├── app/                          # Streamlit web application
+│   └── app.py
 │
-├── data/                    # Dataset 📊
-│   └── raw/
+├── data/
+│   └── raw/                      # Raw dataset
 │
-├── models/                  # Saved trained models 🤖
-│   ├── churn_prediction_model.h5
-│   └── scaler.pkl
+├── models/
+│   ├── churn_prediction_model.h5 # Trained Neural Network
+│   └── scaler.pkl                # Fitted StandardScaler
 │
-├── notebooks/               # Jupyter notebooks for analysis 📓
-│   └── churn_analysis.ipynb
+├── notebooks/
+│   └── churn_analysis.ipynb      # EDA + Model training notebook
 │
-├── src/                     # Source code 💻
-│
-├── requirements.txt         # Project dependencies 📦
-├── .gitignore
+├── src/                          # Modular source code
+├── requirements.txt
 └── README.md
 ```
 
@@ -118,34 +110,16 @@ Customer-Churn-Prediction
 - **Task:** Binary classification (Churn vs Not Churn)
 
 ---
-
 ## 📊 Model Comparison
 
 | Model | Accuracy |
-|------|------|
+|---|---|
 | Logistic Regression | 82% |
 | Random Forest | 85% |
 | SVM | 86% |
-| Neural Network | 86% |
+| ✅ **Neural Network** | **86%** |
 
-Neural Network was selected as the training model. 🧠
-
----
-## 📊 Dataset
-
-This project uses the **Credit Card Customer Churn Dataset** which contains customer demographic and banking information used to predict churn behavior.
-
-[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
-
----
-
-## 📋 Dataset Preview
-
-| CreditScore | Geography | Age | Balance | Tenure | NumOfProducts | IsActiveMember | Churn |
-|-------------|-----------|-----|---------|--------|---------------|---------------|-------|
-| 619 | France | 42 | 0.00 | 2 | 1 | 1 | 1 |
-| 608 | Spain | 41 | 83807.86 | 1 | 1 | 1 | 0 |
-| 502 | France | 42 | 159660.80 | 8 | 3 | 0 | 1 |
+> **Neural Network (TensorFlow/Keras)** was selected as the final model for deployment due to its performance and scalability.
 
 ---
 
