@@ -32,9 +32,9 @@ This project answers the question:
 
 <div align="center">
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
-[![📓 Notebook](https://img.shields.io/badge/📓%20Notebook-View%20Analysis-F37626?style=for-the-badge&logo=jupyter)](notebooks/churn_analysis.ipynb)
-[![📊 Dataset](https://img.shields.io/badge/📊%20Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
+[![Notebook](https://img.shields.io/badge/Notebook-View%20Analysis-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](notebooks/churn_analysis.ipynb)
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
 
 </div>
 
