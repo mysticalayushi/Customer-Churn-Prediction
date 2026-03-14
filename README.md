@@ -147,7 +147,7 @@ Raw Data  →  Cleaning  →  EDA  →  Feature Scaling  →  Model Training  �
 
 ---
 
-### Features Used for Prediction
+## 🎯 Features Used for Prediction
 
 <div align="center">
 
