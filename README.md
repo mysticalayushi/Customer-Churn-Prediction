@@ -100,21 +100,25 @@ Customer-Churn-Prediction/
 
 ---
 
-## ⚙️ Model Training Process
+## ⚙️ Model Training & Performance
 
-1. Data cleaning and preprocessing 🧹
-2. Exploratory Data Analysis (EDA) 🔎
-3. Data scaling using **StandardScaler** ⚖️
-4. Model training using a **Neural Network** 🧠
-5. Model evaluation 📊
-6. Model saving for deployment 💾
+<div align="center">
 
----
+| Step | Process |
+|:---:|---|
+| 1 | Data cleaning and preprocessing |
+| 2 | Exploratory Data Analysis (EDA) |
+| 3 | Data scaling using **StandardScaler** |
+| 4 | Model training using a **Neural Network** |
+| 5 | Model evaluation |
+| 6 | Model saving for deployment |
 
-## 📈 Model Performance
+| Metric | Value |
+|---|---|
+| **Accuracy** | ~85% (may vary depending on training) |
+| **Task** | Binary classification (Churn vs Not Churn) |
 
-- **Accuracy:** ~85% (may vary depending on training)
-- **Task:** Binary classification (Churn vs Not Churn)
+</div>
 
 ---
 
