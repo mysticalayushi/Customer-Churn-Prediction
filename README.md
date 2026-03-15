@@ -38,6 +38,7 @@ This project answers the question:
 > ⚠️ **App may be sleeping** — Streamlit free tier may hibernate. Click **Live App** and wait ~30s.
 
 </div>
+
 ---
 
 ## 🖼️ App Preview
