@@ -101,6 +101,23 @@ Customer-Churn-Prediction/
 
 ---
 
+## 🎯 Features Used for Prediction
+
+<div align="center">
+
+| Feature | Description |
+|---|---|
+| `CreditScore` | Customer's credit score |
+| `Age` | Customer's age |
+| `Balance` | Account balance |
+| `Tenure` | Years as a customer |
+| `NumOfProducts` | Number of bank products held |
+| `IsActiveMember` | Whether the customer is active |
+
+</div>
+
+---
+
 ## ⚙️ Model Training & Performance
 
 <div align="center">
@@ -145,23 +162,6 @@ Customer-Churn-Prediction/
 ```
 Raw Data  →  Cleaning  →  EDA  →  Feature Scaling  →  Model Training  →  Evaluation  →  Deployment
 ```
-
----
-
-## 🎯 Features Used for Prediction
-
-<div align="center">
-
-| Feature | Description |
-|---|---|
-| `CreditScore` | Customer's credit score |
-| `Age` | Customer's age |
-| `Balance` | Account balance |
-| `Tenure` | Years as a customer |
-| `NumOfProducts` | Number of bank products held |
-| `IsActiveMember` | Whether the customer is active |
-
-</div>
 
 ---
 
