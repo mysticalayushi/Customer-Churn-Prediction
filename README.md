@@ -29,15 +29,15 @@ This project answers the question:
 ---
 
 ## 🚀 Live Demo
-
 <div align="center">
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer-churn-prediction-pg2spsbjlksybbuyappw8hf.streamlit.app/)
 [![Notebook](https://img.shields.io/badge/Notebook-View%20Analysis-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](notebooks/churn_analysis.ipynb)
 [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
 
-</div>
+> ⚠️ **App may be sleeping** — Streamlit free tier may hibernate. Click **Live App** and wait ~30s.
 
+</div>
 ---
 
 ## 🖼️ App Preview
