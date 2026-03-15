@@ -27,7 +27,6 @@ This project answers the question:
 > **"Given a customer's demographic and banking profile, how likely are they to leave?"**
 
 ---
-
 ## 📚 Table of Contents
 
 - [📌 Project Overview](#-project-overview)
@@ -44,11 +43,10 @@ This project answers the question:
 - [▶️ Run Locally](#️-run-locally)
 - [💡 Business Recommendations](#-business-recommendations)
 - [🔭 Future Improvements](#-future-improvements)
-- [📋 Project Information](#-project-information)
 - [👩‍💻 Author](#-author)
-
-  ---
-
+  
+  ----
+  
 ## 🚀 Live Demo
 
 <div align="center">
