@@ -15,7 +15,7 @@ st.set_page_config(
 # ── Load trained model assets ─────────────────────────────────────────────────
 @st.cache_resource
 def load_assets():
-    base    = os.path.dirname(__file__)
+    base    = os.path.dirname(os.path.abspath(__file__))
     model   = tf.keras.models.load_model(
                   os.path.join(base, "../models/churn_prediction_model.keras"))
     scaler  = joblib.load(os.path.join(base, "../models/scaler.pkl"))
