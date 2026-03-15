@@ -79,14 +79,14 @@ Customer-Churn-Prediction/
 
 <div align="center">
 
-| Category | Tools |
+| 🏷️ Category | 🔧 Tools |
 |---|---|
-| **Language** | Python 3.11 |
-| **Deep Learning** | TensorFlow, Keras |
-| **ML & Data** | Scikit-learn, Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn |
-| **Deployment** | Streamlit |
-| **Model Serialisation** | Joblib |
+| 🐍 **Language** | Python 3.11 |
+| 🧠 **Deep Learning** | TensorFlow, Keras |
+| 📊 **ML & Data** | Scikit-learn, Pandas, NumPy |
+| 📈 **Visualization** | Matplotlib, Seaborn |
+| 🚀 **Deployment** | Streamlit |
+| 💾 **Model Serialisation** | Joblib |
 
 </div>
 
@@ -103,18 +103,18 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 
 <div align="center">
 
-| Feature | Description |
+| 🔑 Feature | 📝 Description |
 |---|---|
-| `CreditScore` | Customer credit score |
-| `Geography` | Customer location (France, Germany, Spain) — one-hot encoded |
-| `Gender` | Male / Female — one-hot encoded |
-| `Age` | Customer age |
-| `Tenure` | Years with bank |
-| `Balance` | Account balance |
-| `NumOfProducts` | Number of bank products |
-| `HasCrCard` | Has credit card (1 = Yes, 0 = No) |
-| `IsActiveMember` | Active member status (1 = Yes, 0 = No) |
-| `EstimatedSalary` | Customer estimated salary |
+| `CreditScore` | 💳 Customer credit score |
+| `Geography` | 🌍 Customer location (France, Germany, Spain) — one-hot encoded |
+| `Gender` | 👤 Male / Female — one-hot encoded |
+| `Age` | 🎂 Customer age |
+| `Tenure` | 📅 Years with bank |
+| `Balance` | 💰 Account balance |
+| `NumOfProducts` | 📦 Number of bank products |
+| `HasCrCard` | 💳 Has credit card (1 = Yes, 0 = No) |
+| `IsActiveMember` | ✅ Active member status (1 = Yes, 0 = No) |
+| `EstimatedSalary` | 💵 Customer estimated salary |
 
 </div>
 
@@ -124,13 +124,13 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 
 <div align="center">
 
-| Insight | Business Implication |
+| 🔍 Insight | 💼 Business Implication |
 |---|---|
-| **20.4% overall churn rate** | Significant revenue at risk — retention efforts needed |
-| **Germany has highest churn** | Target German customers with special retention offers |
-| **Age 50–60 has 56.2% churn rate** | Highest risk group — prioritise retention for middle-aged customers |
-| **Age 40–50 has 34.0% churn rate** | Second highest risk group — early intervention recommended |
-| **Age <30 has only 7.5% churn rate** | Most loyal segment — leverage for referrals and upselling |
+| 📉 **20.4% overall churn rate** | Significant revenue at risk — retention efforts needed |
+| 🇩🇪 **Germany has highest churn** | Target German customers with special retention offers |
+| 👴 **Age 50–60 has 56.2% churn rate** | Highest risk group — prioritise retention for middle-aged customers |
+| 🧑 **Age 40–50 has 34.0% churn rate** | Second highest risk group — early intervention recommended |
+| 🧒 **Age <30 has only 7.5% churn rate** | Most loyal segment — leverage for referrals and upselling |
 
 </div>
 
@@ -138,13 +138,17 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 
 ## ⚙️ Data Preprocessing
 
-| Step | Detail |
+<div align="center">
+
+| 🔢 Step | ⚙️ Detail |
 |---|---|
-| Drop columns | `RowNumber`, `CustomerId`, `Surname` removed |
-| One-Hot Encoding | `Geography` and `Gender` encoded using `pd.get_dummies(drop_first=True)` |
-| Column list saved | `training_columns.pkl` saved to ensure consistent inference |
-| Train-Test Split | 80% train / 20% test, random state = 1 |
-| Feature Scaling | `StandardScaler` — `fit_transform` on train, `transform` on test |
+| 🗑️ Drop columns | `RowNumber`, `CustomerId`, `Surname` removed |
+| 🔤 One-Hot Encoding | `Geography` and `Gender` encoded using `pd.get_dummies(drop_first=True)` |
+| 💾 Column list saved | `training_columns.pkl` saved to ensure consistent inference |
+| ✂️ Train-Test Split | 80% train / 20% test, random state = 1 |
+| 📏 Feature Scaling | `StandardScaler` — `fit_transform` on train, `transform` on test |
+
+</div>
 
 ---
 
@@ -154,10 +158,10 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 
 <div align="center">
 
-| Model | Accuracy |
+| 🤖 Model | 🎯 Accuracy |
 |---|---|
-| Logistic Regression | ~72% |
-| Decision Tree | ~76% |
+| 📈 Logistic Regression | ~72% |
+| 🌳 Decision Tree | ~76% |
 | ✅ **Neural Network** | **~80%** |
 
 </div>
@@ -170,22 +174,22 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 
 <div align="center">
 
-| Layer | Configuration |
+| 🏗️ Layer | ⚙️ Configuration |
 |---|---|
-| Input Layer | 11 features |
-| Dense Layer | 64 neurons (ReLU) |
-| Dropout | 0.3 |
-| Dense Layer | 32 neurons (ReLU) |
-| Dropout | 0.3 |
-| Output Layer | 1 neuron (Sigmoid) |
+| ➡️ Input Layer | 11 features |
+| 🔵 Dense Layer | 64 neurons (ReLU) |
+| 🔄 Dropout | 0.3 |
+| 🔵 Dense Layer | 32 neurons (ReLU) |
+| 🔄 Dropout | 0.3 |
+| 🎯 Output Layer | 1 neuron (Sigmoid) |
 
-| Training Config | Value |
+| ⚡ Training Config | 📊 Value |
 |---|---|
-| Loss Function | Binary Crossentropy |
-| Optimizer | Adam |
-| Epochs | 50 |
-| Batch Size | 32 |
-| Class Weights | Applied to address 80/20 imbalance |
+| 📉 Loss Function | Binary Crossentropy |
+| ⚙️ Optimizer | Adam |
+| 🔁 Epochs | 50 |
+| 📦 Batch Size | 32 |
+| ⚖️ Class Weights | Applied to address 80/20 imbalance |
 
 </div>
 
@@ -207,10 +211,10 @@ This guarantees new customer data is encoded **identically** to how the training
 
 The deployed Streamlit dashboard includes:
 
-- **Customer Input Panel** — credit score, age, tenure, balance, number of products, credit card status, active membership, estimated salary, geography, and gender
-- **Real Model Inference** — predictions from the trained neural network
-- **Three Risk Tiers** — High (>50%), Medium (30–50%), Low (<30%) with visual progress bar
-- **Retention Suggestions** — contextual tips based on the customer's specific risk factors
+- 🎛️ **Customer Input Panel** — credit score, age, tenure, balance, number of products, credit card status, active membership, estimated salary, geography, and gender
+- 🤖 **Real Model Inference** — predictions from the trained neural network
+- 🚦 **Three Risk Tiers** — High (>50%), Medium (30–50%), Low (<30%) with visual progress bar
+- 💡 **Retention Suggestions** — contextual tips based on the customer's specific risk factors
 
 ---
 
@@ -237,34 +241,38 @@ jupyter notebook notebooks/churn_analysis.ipynb
 
 ## 💡 Business Recommendations
 
-1. **Target German customers** with special retention offers as they show higher churn probability
-2. **Engage inactive members** through loyalty programs, personalised emails, or incentives
-3. **Focus on customers aged 50–60** as this group has the highest churn rate at 56.2%
-4. **Monitor customers aged 40–50** as they represent the second highest risk group at 34.0%
-5. Introduce **personalised financial products** based on customer behaviour and risk score
+1. 🇩🇪 **Target German customers** with special retention offers as they show higher churn probability
+2. 💤 **Engage inactive members** through loyalty programs, personalised emails, or incentives
+3. 👴 **Focus on customers aged 50–60** as this group has the highest churn rate at 56.2%
+4. 🧑 **Monitor customers aged 40–50** as they represent the second highest risk group at 34.0%
+5. 🎁 Introduce **personalised financial products** based on customer behaviour and risk score
 
 ---
 
 ## 🔭 Future Improvements
 
-- [ ] Improve model performance using **Gradient Boosting or XGBoost**
-- [ ] Perform **hyperparameter tuning** to further optimise prediction accuracy
-- [ ] Incorporate **additional customer behaviour features** such as transaction frequency
-- [ ] Implement **A/B testing strategies** to evaluate churn reduction campaigns
-- [ ] Build a **real-time data pipeline** for automated churn monitoring
-- [ ] Add **SHAP values** for deeper model explainability
+- [ ] 🌲 Improve model performance using **Gradient Boosting or XGBoost**
+- [ ] 🔧 Perform **hyperparameter tuning** to further optimise prediction accuracy
+- [ ] 📊 Incorporate **additional customer behaviour features** such as transaction frequency
+- [ ] 🧪 Implement **A/B testing strategies** to evaluate churn reduction campaigns
+- [ ] ⚡ Build a **real-time data pipeline** for automated churn monitoring
+- [ ] 🔍 Add **SHAP values** for deeper model explainability
 
 ---
 
 ## 📋 Project Information
 
-| Field | Detail |
+<div align="center">
+
+| 📌 Field | 📝 Detail |
 |---|---|
-| **Created by** | Ayushi Rai |
-| **Model** | Neural Network (TensorFlow / Keras) |
-| **Test Accuracy** | ~80% |
-| **Dataset** | Credit Card Customer Churn — Kaggle (10,000 records) |
-| **Date** | March 2026 |
+| 👩‍💻 **Created by** | Ayushi Rai |
+| 🧠 **Model** | Neural Network (TensorFlow / Keras) |
+| 🎯 **Test Accuracy** | ~80% |
+| 📊 **Dataset** | Credit Card Customer Churn — Kaggle (10,000 records) |
+| 📅 **Date** | March 2026 |
+
+</div>
 
 ---
 
