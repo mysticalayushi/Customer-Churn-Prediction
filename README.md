@@ -127,7 +127,7 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 | 🔍 Insight | 💼 Business Implication |
 |---|---|
 | 📉 **20.4% overall churn rate** | Significant revenue at risk — retention efforts needed |
-| 🇩🇪 **Germany has highest churn** | Target German customers with special retention offers |
+| 🌍 **Germany has highest churn** | Target German customers with special retention offers |
 | 👴 **Age 50–60 has 56.2% churn rate** | Highest risk group — prioritise retention for middle-aged customers |
 | 🧑 **Age 40–50 has 34.0% churn rate** | Second highest risk group — early intervention recommended |
 | 🧒 **Age <30 has only 7.5% churn rate** | Most loyal segment — leverage for referrals and upselling |
@@ -241,7 +241,7 @@ jupyter notebook notebooks/churn_analysis.ipynb
 
 ## 💡 Business Recommendations
 
-1. 🇩🇪 **Target German customers** with special retention offers as they show higher churn probability
+1. 🎯 **Target German customers** with special retention offers as they show higher churn probability
 2. 💤 **Engage inactive members** through loyalty programs, personalised emails, or incentives
 3. 👴 **Focus on customers aged 50–60** as this group has the highest churn rate at 56.2%
 4. 🧑 **Monitor customers aged 40–50** as they represent the second highest risk group at 34.0%
