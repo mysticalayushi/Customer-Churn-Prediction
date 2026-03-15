@@ -28,6 +28,27 @@ This project answers the question:
 
 ---
 
+## 📚 Table of Contents
+
+- [📌 Project Overview](#-project-overview)
+- [🚀 Live Demo](#-live-demo)
+- [📂 Project Structure](#-project-structure)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📊 Dataset Description](#-dataset-description)
+- [📈 Key Insights from EDA](#-key-insights-from-eda)
+- [⚙️ Data Preprocessing](#️-data-preprocessing)
+- [🤖 Model Training & Performance](#-model-training--performance)
+- [🧠 Neural Network Architecture](#-neural-network-architecture)
+- [🔮 Inference Pipeline](#-inference-pipeline)
+- [🚀 Application Features](#-application-features)
+- [▶️ Run Locally](#️-run-locally)
+- [💡 Business Recommendations](#-business-recommendations)
+- [🔭 Future Improvements](#-future-improvements)
+- [📋 Project Information](#-project-information)
+- [👩‍💻 Author](#-author)
+
+  ---
+
 ## 🚀 Live Demo
 
 <div align="center">
@@ -289,4 +310,10 @@ jupyter notebook notebooks/churn_analysis.ipynb
 
 <div align="center">
 <sub>If you found this project helpful, consider giving it a ⭐ on GitHub!</sub>
+</div>
+
+---
+
+<div align="center">
+  <a href="#-table-of-contents">⬆️ Back to Top</a>
 </div>
