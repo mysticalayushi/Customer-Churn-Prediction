@@ -44,7 +44,7 @@ st.write("Predict whether a bank customer is likely to churn.")
 col1, col2, col3 = st.columns(3)
 col1.metric("Model Type", "Customer Churn")
 col2.metric("Algorithm",  "Neural Network")
-col3.metric("Accuracy",   "~85%")
+col3.metric("Accuracy", "~80%")
 
 st.markdown("---")
 
