@@ -3,7 +3,6 @@ pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.4.2
 tensorflow-cpu
-keras==2.15.0
 joblib==1.4.2
 matplotlib==3.8.4
 seaborn==0.13.2
