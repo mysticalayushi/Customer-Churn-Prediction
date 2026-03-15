@@ -29,22 +29,23 @@ This project answers the question:
 ---
 ## 📚 Table of Contents
 
-- [📌 Project Overview](#-project-overview)
-- [🚀 Live Demo](#-live-demo)
-- [📂 Project Structure](#-project-structure)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [📊 Dataset Description](#-dataset-description)
-- [📈 Key Insights from EDA](#-key-insights-from-eda)
-- [⚙️ Data Preprocessing](#️-data-preprocessing)
-- [🤖 Model Training & Performance](#-model-training--performance)
-- [🧠 Neural Network Architecture](#-neural-network-architecture)
-- [🔮 Inference Pipeline](#-inference-pipeline)
-- [🚀 Application Features](#-application-features)
-- [▶️ Run Locally](#️-run-locally)
-- [💡 Business Recommendations](#-business-recommendations)
-- [🔭 Future Improvements](#-future-improvements)
-- [👩‍💻 Author](#-author)
-  
+<ul>
+  <li><a href="#-project-overview">📌 Project Overview</a></li>
+  <li><a href="#-live-demo">🚀 Live Demo</a></li>
+  <li><a href="#-project-structure">📂 Project Structure</a></li>
+  <li><a href="#️-tech-stack">🛠️ Tech Stack</a></li>
+  <li><a href="#-dataset-description">📊 Dataset Description</a></li>
+  <li><a href="#-key-insights-from-eda">📈 Key Insights from EDA</a></li>
+  <li><a href="#️-data-preprocessing">⚙️ Data Preprocessing</a></li>
+  <li><a href="#-model-training--performance">🤖 Model Training & Performance</a></li>
+  <li><a href="#-neural-network-architecture">🧠 Neural Network Architecture</a></li>
+  <li><a href="#-inference-pipeline">🔮 Inference Pipeline</a></li>
+  <li><a href="#-application-features">🚀 Application Features</a></li>
+  <li><a href="#️-run-locally">▶️ Run Locally</a></li>
+  <li><a href="#-business-recommendations">💡 Business Recommendations</a></li>
+  <li><a href="#-future-improvements">🔭 Future Improvements</a></li>
+  <li><a href="#-author">👩‍💻 Author</a></li>
+</ul>
   ----
   
 ## 🚀 Live Demo
