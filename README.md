@@ -155,29 +155,33 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 
 </div>
 
-### 📉 Churn Distribution
+<details>
+<summary><b>📊 View EDA Visualizations</b></summary>
+<br>
 
-<div align="center">
-<img src="notebooks/EDA_Churn_Distribution.png" alt="Churn Distribution" width="480"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="notebooks/EDA_Churn_Distribution.png" alt="Churn Distribution" width="100%"/>
+      <br/>
+      <em>Fig 1 — Churn Distribution: 79.6% stayed vs 20.4% churned</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="notebooks/EDA_Churn_Geography.png" alt="Churn Rate by Geography" width="100%"/>
+      <br/>
+      <em>Fig 2 — Germany churns at 32.4%, nearly double non-German customers</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="notebooks/EDA_Churn_Age.png" alt="Churn Rate by Age Group" width="65%"/>
+      <br/>
+      <em>Fig 3 — Age 50–60 has the highest churn rate at 56.2%; under-30s are the most loyal at 7.5%</em>
+    </td>
+  </tr>
+</table>
 
-The dataset is imbalanced — **79.6% of customers stayed** while only **20.4% churned**. Class weights were applied during training to address this imbalance.
-
-### 🌍 Geographic Impact on Churn
-
-<div align="center">
-<img src="notebooks/EDA_Churn_Geography.png" alt="Churn Rate by Geography" width="600"/>
-</div>
-
-German customers churn at **32.4%** — nearly double the rate of non-German customers (16.3%), making geography one of the strongest churn signals.
-
-### 👥 Age-Based Churn Patterns
-
-<div align="center">
-<img src="notebooks/EDA_Churn_Age.png" alt="Churn Rate by Age Group" width="640"/>
-</div>
-
-Customers aged **50–60 have a 56.2% churn rate** — the highest of any group. Risk falls sharply for customers under 30, who churn at just 7.5%.
+</details>
 
 ---
 
@@ -213,11 +217,17 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 
 **The Neural Network was selected as the final model** as it significantly outperforms the baseline models and captures complex, non-linear patterns in customer behaviour that simpler models miss. Decision Trees tend to overfit, and Logistic Regression assumes linear relationships — both limitations the Neural Network overcomes with its layered architecture and Dropout regularisation.
 
-### 📉 Training Curves & Model Evaluation
+<details>
+<summary><b>📊 View Model Performance Visualizations</b></summary>
+<br>
 
 <div align="center">
-<img src="notebooks/Model_Performance_Visualization.png" alt="Model Loss, Accuracy, Confusion Matrix, and Feature Importance" width="900"/>
+  <img src="notebooks/Model_Performance_Visualization.png" alt="Model Loss, Accuracy, Confusion Matrix and Feature Importance" width="100%"/>
+  <br/>
+  <em>Fig 4 — (Top) Training vs Validation Loss & Accuracy over 50 epochs &nbsp;|&nbsp; (Bottom) Confusion Matrix & Permutation Feature Importance</em>
 </div>
+
+</details>
 
 The model converges steadily across 50 epochs with no signs of overfitting. The confusion matrix confirms strong performance on the majority class, while the permutation feature importance chart reveals that **NumOfProducts** and **Age** are the most influential predictors of churn.
 
