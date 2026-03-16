@@ -156,7 +156,9 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 </div>
 
 <details>
-<summary><b>📊 View EDA Visualizations</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/📊_View_EDA_Visualizations-Click_to_expand-4A90D9?style=for-the-badge&logo=python&logoColor=white"/>
+</summary>
 <br>
 
 <table>
@@ -218,7 +220,9 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 **The Neural Network was selected as the final model** as it significantly outperforms the baseline models and captures complex, non-linear patterns in customer behaviour that simpler models miss. Decision Trees tend to overfit, and Logistic Regression assumes linear relationships — both limitations the Neural Network overcomes with its layered architecture and Dropout regularisation.
 
 <details>
-<summary><b>📊 View Model Performance Visualizations</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/📈_View_Model_Performance-Click_to_expand-2ECC71?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+</summary>
 <br>
 
 <div align="center">
