@@ -155,10 +155,6 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 
 </div>
 
-<details>
-<summary><kbd>📊 &nbsp; View EDA Visualizations &nbsp; ▼</kbd></summary>
-<br>
-
 <table>
   <tr>
     <td align="center" width="50%">
@@ -180,8 +176,6 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
     </td>
   </tr>
 </table>
-
-</details>
 
 ---
 
