@@ -158,7 +158,7 @@ The dataset used is the **Credit Card Customer Churn dataset from Kaggle**.
 ### 📉 Churn Distribution
 
 <div align="center">
-<img src="notebooks/visualizations/EDA_Churn_Distribution.png" alt="Churn Distribution" width="480"/>
+<img src="notebooks/EDA_Churn_Distribution.png" alt="Churn Distribution" width="480"/>
 </div>
 
 The dataset is imbalanced — **79.6% of customers stayed** while only **20.4% churned**. Class weights were applied during training to address this imbalance.
@@ -166,7 +166,7 @@ The dataset is imbalanced — **79.6% of customers stayed** while only **20.4% c
 ### 🌍 Geographic Impact on Churn
 
 <div align="center">
-<img src="notebooks/visualizations/EDA_Churn_Geography.png" alt="Churn Rate by Geography" width="600"/>
+<img src="notebooks/EDA_Churn_Geography.png" alt="Churn Rate by Geography" width="600"/>
 </div>
 
 German customers churn at **32.4%** — nearly double the rate of non-German customers (16.3%), making geography one of the strongest churn signals.
@@ -174,7 +174,7 @@ German customers churn at **32.4%** — nearly double the rate of non-German cus
 ### 👥 Age-Based Churn Patterns
 
 <div align="center">
-<img src="notebooks/visualizations/EDA_Churn_Age.png" alt="Churn Rate by Age Group" width="640"/>
+<img src="notebooks/EDA_Churn_Age.png" alt="Churn Rate by Age Group" width="640"/>
 </div>
 
 Customers aged **50–60 have a 56.2% churn rate** — the highest of any group. Risk falls sharply for customers under 30, who churn at just 7.5%.
@@ -216,7 +216,7 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 ### 📉 Training Curves & Model Evaluation
 
 <div align="center">
-<img src="notebooks/visualizations/Model_Performance_Visualization.png" alt="Model Loss, Accuracy, Confusion Matrix, and Feature Importance" width="900"/>
+<img src="notebooks/Model_Performance_Visualization.png" alt="Model Loss, Accuracy, Confusion Matrix, and Feature Importance" width="900"/>
 </div>
 
 The model converges steadily across 50 epochs with no signs of overfitting. The confusion matrix confirms strong performance on the majority class, while the permutation feature importance chart reveals that **NumOfProducts** and **Age** are the most influential predictors of churn.
