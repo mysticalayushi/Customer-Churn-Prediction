@@ -211,17 +211,11 @@ Multiple models were evaluated with `class_weight='balanced'` applied to handle 
 
 **The Neural Network was selected as the final model** as it significantly outperforms the baseline models and captures complex, non-linear patterns in customer behaviour that simpler models miss. Decision Trees tend to overfit, and Logistic Regression assumes linear relationships — both limitations the Neural Network overcomes with its layered architecture and Dropout regularisation.
 
-<details>
-<summary><kbd>📈 &nbsp; View Model Performance Visualizations &nbsp; ▼</kbd></summary>
-<br>
-
 <div align="center">
   <img src="notebooks/Model_Performance_Visualization.png" alt="Model Loss, Accuracy, Confusion Matrix and Feature Importance" width="100%"/>
   <br/>
   <em>Fig 4 — (Top) Training vs Validation Loss & Accuracy over 50 epochs &nbsp;|&nbsp; (Bottom) Confusion Matrix & Permutation Feature Importance</em>
 </div>
-
-</details>
 
 The model converges steadily across 50 epochs with no signs of overfitting. The confusion matrix confirms strong performance on the majority class, while the permutation feature importance chart reveals that **NumOfProducts** and **Age** are the most influential predictors of churn.
 
